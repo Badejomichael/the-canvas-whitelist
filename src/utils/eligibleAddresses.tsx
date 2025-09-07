@@ -334,8 +334,10 @@ export const eligibleAddresses = [
   "0x90cb59f41e7b79b6b42f9dd1ea8aab9af686653a",
   "0xb2505d862bbad3c9b914400c1368f20be8074e4a",
   "0x6df5195e2990bb29fb6e220df98dc26ebde9ed9a",
+  "0xb19092f617918Dac0fC6A61c0607119c47a15d78",
 
 ];
+
 
 
 
