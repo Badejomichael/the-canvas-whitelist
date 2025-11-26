@@ -12,7 +12,9 @@ export default function Page() {
   const handleCheck = () => {
     const normalized = inputAddress.trim().toLowerCase();
 
-    if (!/^(0x)?[a-fA-F0-9]{40}$/.test(normalized)) {
+    const isValidAddress = /^(0x[a-fA-F0-9]{40}|[1-9A-HJ-NP-Za-km-z]{32,44})$/.test(normalized);
+
+    if (!isValidAddress) {
       toast.error('Invalid wallet address');
       return;
     }
